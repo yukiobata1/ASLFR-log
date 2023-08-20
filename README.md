@@ -3,7 +3,9 @@
 - Mixed precision でトレーニング(https://www.tensorflow.org/guide/mixed_precision によれば、TPUではbfloat16がよい)
 - fp16で保存
 - パラメータ数を減らす。
-Aug 20
+
+
+## Aug 20
 5:08-5:20
 mixed precision training なぜ途中で実行が中断されるのか？
 need to switch between TPU and GPU depend on availability, maybe just using the existing method(https://www.kaggle.com/code/obatayuki/1st-place-solution-for-testing/edit) is sufficient.
